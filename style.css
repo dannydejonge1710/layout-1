@@ -1,0 +1,303 @@
+*	{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("longboardwal.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Verdana;
+	font-size: 20px;
+	margin: 0;
+	line-height: 24px;
+}
+
+nav{
+	text-align: center;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block; 
+	padding: 25px;
+	width: 100px;
+	font-family: sans-serif;
+}
+
+ul:after {
+	content: ""; clear:both;
+	display: block;
+}
+
+ul li{
+	float: left;
+	list-style: none;
+}
+
+ul ul {
+	display: none;
+}
+
+ul li:hover > ul{
+	display: block;	
+}
+
+ul li:hover {
+	background: green;
+	background: rgba(0,255,0,0.9);
+	transition: 0.9s;
+	border-radius: 20px;	
+}
+
+ul li:hover a {
+	color: white;
+	font-family: sans-serif;
+}
+
+ul ul {
+	background: black;
+	padding: 0;
+	margin: 0;
+	position: absolute; top: 100%;
+	background: rgba(0,0,0,0.8);
+}
+
+ul ul li {
+	float: none;
+	position: relative;
+}
+
+ul ul li a {
+	padding: 25px;
+	color: white;
+	width: 100px;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+ul ul li a:hover {
+	background: green;
+	color: white;
+	transition: 0.9s;
+	border-radius: 20px;
+	font-family: sans-serif;
+}
+
+.tekst{
+	color: white;
+	position: absolute;
+	margin-top: 24px;
+	padding-right: 50px;
+	right: 0;
+}
+
+.content{
+	width: 1000px;
+	margin: 0 auto;
+}
+	
+.logo{
+	text-align: center;
+	background-color: rgba(0, 100, 0, 0.8); 
+	padding-top: 10px;
+}
+
+
+.ad{
+	float: right;
+}
+
+p{
+	font-family: sans-serif;
+	padding-left: 20px;
+	padding-right: 20px;	
+}
+
+.call-outs-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex direction: row;
+	flex-wrap: wrap;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.call-out {
+	padding: 20px;
+	margin-bottom: 20px;
+	margin: 40 auto;
+	
+	border-radius: 20px;
+	width: 350px;
+	height: 400px;
+}
+
+.call-out:hover {
+	border: 1px solid green;	
+}
+
+
+@media (min-width: 1024px) {
+	.call-outs-container {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.tekst1{
+		max-width: 750px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+
+
+.call-out:nth-child(1) {background-color: rgba(0, 0, 0, 0.5);
+						color: white;
+						font-family: : sans-serif;						
+}
+
+.call-out:nth-child(2) {background-color: rgba(0, 0, 0, 0.5);
+						color: white;
+						font-family: : sans-serif;
+}
+
+.call-out:nth-child(3) {background-color: rgba(0, 0, 0, 0.5);
+						color: white;
+						font-family: : sans-serif;						
+}
+
+.call-out:nth-child(4) {background-color: rgba(0, 0, 0, 0.5);
+						color: white;
+						font-family: : sans-serif;						
+}
+
+.call-out:nth-child(5) {background-color: rgba(0, 0, 0, 0.5);
+						color: white;
+						font-family: : sans-serif;						
+}
+
+
+
+
+	
+.plaatje {
+	padding-top: 20px;
+	text-align: center;
+}
+
+.p1{
+	padding-top: 20px;
+	
+}
+
+
+.ads {
+	
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+aside {
+	float: right;
+}
+
+.adsmin {
+	margin-top: 40px;
+	opacity: 0.8;
+	text-align: center;
+}
+
+.adsmin:hover{
+	border: 1px solid green;
+}
+
+
+
+.tekst1{
+
+	width: 1000px;
+	margin: 50px auto 40px auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	border-radius: 20px;
+	font-family: sans-serif;
+}
+
+
+
+h2{
+	padding-bottom: 20px;
+	padding-top: 5px;
+	font-family: sans-serif;
+}
+
+h3{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: sans-serif;
+}
+
+h4{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: sans-serif;
+}
+
+.plaatjen1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+
+
+footer{
+	width: 100%
+	height: 50px;
+	background-color: black;
+	color: white;
+	text-align: right;
+	font-family: sans-serif;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+
+	float: left;
+	padding-right: 20px;
+}
+
+
+a {
+	text-decoration: none;
+	color: green;
+	font-family: sans-serif;
+}
+
+a:hover {
+	color: white;
+}
