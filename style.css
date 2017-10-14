@@ -132,15 +132,15 @@ p{
 	flex-wrap: wrap;
 	margin-top: 40px;
 	margin-bottom: 40px;
+	justify-content: space-between;
 }
 
 .call-out {
 	padding: 20px;
 	margin-bottom: 20px;
 	margin: 40 auto;
-	
 	border-radius: 20px;
-	width: 350px;
+	width: 345px;
 	height: 400px;
 }
 
@@ -152,16 +152,16 @@ p{
 @media (min-width: 1024px) {
 	.call-outs-container {
 		display: flex;
-		justify-content: space-between;
+		flex direction: column;
+		flex-wrap: wrap;
+	
 	}
 }
 
 
 @media (max-width: 1024px) {
 	.tekst1{
-		max-width: 750px;
-		margin-left: 20px;
-		margin-right: 20px;
+		max-width: 740px;
 	}
 }
 
