@@ -17,6 +17,7 @@ nav{
 	text-align: center;
 	width: 100%;
 	background: rgba(0, 0, 0, 0.7);
+
 }
 
 ul {
@@ -149,12 +150,11 @@ p{
 }
 
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 	.call-outs-container {
 		display: flex;
 		flex direction: column;
 		flex-wrap: wrap;
-	
 	}
 }
 
@@ -301,3 +301,4 @@ a {
 a:hover {
 	color: white;
 }
+
